@@ -11,6 +11,9 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[markup.goldmark.renderer]
+    unsafe= true
+
 [params]
     author = "Alex Savin"
     info = "Software Engineer and Filmmaker"

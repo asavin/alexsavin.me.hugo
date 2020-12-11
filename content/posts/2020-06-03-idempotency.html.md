@@ -21,9 +21,7 @@ If you are dealing with automated jobs charging people millions of dollars on ev
 
 Let's say you have a job that would charge a list of accounts late fees on a given day. 
 
-<figure>
-  <img src="https://alexsavin.me/photos/idempotency.png">
-</figure>
+![](https://alexsavin.me/photos/idempotency.png)
 
 It could look something like this.
 
