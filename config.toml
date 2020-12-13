@@ -1,10 +1,10 @@
-baseurl = "https://alexsavin.me/hugo"
-title = "alexsavin"
+baseurl = "https://alexsavin.me/"
+title = "Alex Savin"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+paginate = 50
 canonifyurls = true
 
 pygmentsstyle = "bw"
@@ -39,10 +39,10 @@ pygmentscodefencesguesssyntax = true
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorscheme = "auto"
+    colorscheme = "light"
 
     # Hide the toggle button, along with the associated vertical divider
-    hidecolorschemetoggle = false
+    hidecolorschemetoggle = true
 
 # Social links
 [[params.social]]
