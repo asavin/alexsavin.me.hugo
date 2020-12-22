@@ -1,9 +1,9 @@
 +++ 
-draft = true
+draft = false
 date = 2020-12-22T14:37:10Z
 title = "Handling financials in your app - best practices"
 description = "Handling money in your app is tricky and can lead to upset customers and loss of revenue. Here are some examples how you can improve DX and reduce future bugs."
-slug = "" 
+slug = "financials-best-practices" 
 tags = ['javascript', 'financials']
 categories = []
 externalLink = ""
@@ -13,6 +13,18 @@ series = []
 This blog is not about how to integrate Stripe or arrange payments. This is mostly about how to name your variables. As you know, naming variables is the second most difficult problem in software engineering.
 
 Money is a highly sensitive topic, and if you are tasked with the implementation of money related features, there are a few things to consider. This primer will apply to JavaScript-based apps, and we are going to look at both frontend and backend parts of the solution. Some practices could be extrapolated and used in general to improve code maintainability - like verbose variable namings. But this is mainly a collection of learned practices from several production projects I've been involved in the past couple of years, serving millions of customers.
+
+## ToC
+
+- [Units and currencies](#units-and-currencies)
+- [Variable naming](#variable-naming)
+- [Calculations](#calculations)
+- [Frontend](#frontend)
+  * [Convert pence to pounds and pence](#convert-pence-to-pounds-and-pence)
+  * [Apply locale-based currency formatting](#apply-locale-based-currency-formatting)
+  * [User inputs](#user-inputs)
+- [Bonus round: Roundings](#bonus-round--roundings)
+- [Summary](#summary)
 
 ## Units and currencies
 
@@ -99,11 +111,7 @@ Turning everything into integers helps to a certain point, but even then you mig
 
 In any case, you probably want to contain business logic and perform it most safely. Ideally on a backend. Send inputs, calculate and render output on the client. If you are in control of the full picture, you could have all the amounts always converted to pence, and only at the very last moment presented as pounds and pence for user's convenience.
 
-DB                       Backend
-[amountInPence]         [amountInPence]
-
-Client
-[amountInPence => pounds and pence for UI]
+![](https://alexsavin.me/photos/2020-12-22-poundsInPenceChart.png)
 
 ## Frontend
 
