@@ -208,7 +208,7 @@ img.emoji {
   .content article p {
     text-align: justify;
     text-justify: auto;
-    hyphens: auto; }
+    hyphens: manual; }
   .content .post .post-title {
     margin-bottom: .75em; }
   .content .post .post-meta i {
