@@ -24,7 +24,7 @@ pygmentscodefencesguesssyntax = true
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Comments? Send me a message on hello@alexsavin.me"
+    footercontent = "Send me a message on hello@alexsavin.me"
 
     hidecredits = false
     hidecopyright = false
@@ -51,10 +51,10 @@ pygmentscodefencesguesssyntax = true
     weight = 1
     url = "https://github.com/asavin/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter fa-2x"
+    name = "Mastodon"
+    icon = "fa fa-mastodon fa-2x"
     weight = 2
-    url = "https://twitter.com/alexsavinme/"
+    url = "https://mastodon.social/@alexsavin"
 [[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
