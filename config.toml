@@ -7,7 +7,7 @@ defaultcontentlanguage = "en"
 paginate = 50
 canonifyurls = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "borland"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -24,7 +24,7 @@ pygmentscodefencesguesssyntax = true
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Send me a message on hello@alexsavin.me"
+    footercontent = "Email me at hello@alexsavin.me"
 
     hidecredits = false
     hidecopyright = false
