@@ -9,7 +9,7 @@ My name is Alexander Savin and I'm based in Edinburgh, UK
 
 ## Current job
 
-I work at [Ki Insurance](https://ki-insurance.com//) where we build the future of specialty insuretech. If you are trying to insure a big space rocket, I might be able to explain how that would work.
+I work at [Ki Insurance](https://ki-insurance.com/) where we build the future of specialty insuretech. If you are trying to insure a big space rocket, I might be able to explain how that would work.
 
 ## Zero tracking
 
