@@ -2,7 +2,7 @@
 draft = false 
 date = 2024-10-06T01:37:10Z
 title = "Oodi - a public library in Helsinki"
-description = "Pomodoro but with vinyl records"
+description = "Borrow some instruments, record a studio album, for free"
 slug = "2024-10-06-oodi-public-library" 
 tags = ['library', 'education']
 categories = []
