@@ -56,6 +56,11 @@ pygmentscodefencesguesssyntax = true
     weight = 2
     url = "https://mastodon.social/@alexsavin"
 [[params.social]]
+    name = "Linkedin"
+    icon = "fa fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/alexsavinme/"
+[[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
