@@ -1,17 +1,43 @@
-.read-blog-mobile {
-  display: none;
+.latest-posts {
+  margin-top: 6rem;
+  text-align: left;
 }
 
-@media only screen and (max-width: 768px) {
-  .read-blog-mobile {
-    display: block;
-    margin-top: 4rem;
-    text-align: center;
-  }
+.latest-posts h3 {
+  text-align: center;
+}
 
-  .read-blog-mobile a {
-    color: #000;
-    text-decoration: underline;
-    font-weight: bold;
-  }
+.centered .about .latest-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.centered .about .latest-posts ul li {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.centered .about .latest-posts ul li a {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 1.8rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.centered .about .latest-posts ul li p {
+  margin: 0.3rem 0 0;
+}
+
+.latest-posts .read-blog-link {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+}
+
+body.colorscheme-dark .latest-posts .read-blog-link {
+  color: #dadada;
 }
