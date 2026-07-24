@@ -32,7 +32,7 @@ pygmentscodefencesguesssyntax = true
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+    custom_scss = ["css/custom.css"]
 
     # Specify light/dark colorscheme
     # Supported values:
